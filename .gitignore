@@ -1,0 +1,21 @@
+# Per-attendee identities, receipts, logs and generated deployment payloads
+.workshop/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+.aws/
+# Local tooling and generated artifacts
+.venv/
+venv/
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.zip
+*.tar.gz
+.codex/

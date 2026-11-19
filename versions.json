@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "jarvis": {
+    "repository": "https://github.com/wasihussain914/jarvis",
+    "commit": "7c4ee7fcfa9b9b429ce092ec127d332494549982",
+    "license": "MIT",
+    "license_file": "LICENSES/JARVIS-MIT.txt"
+  },
+  "hermes": {
+    "package": "hermes-agent",
+    "version": "0.19.0",
+    "repository": "https://github.com/NousResearch/hermes-agent",
+    "source_commit": "3ef6bbd201263d354fd83ec55b3c306ded2eb72a",
+    "license": "MIT",
+    "license_file": "LICENSES/HERMES-AGENT-MIT.txt"
+  },
+  "node": {
+    "version": "22.23.5",
+    "distribution": "node-v22.23.5-linux-x64",
+    "source": "https://nodejs.org/dist/v22.23.5/",
+    "checksum_manifest": "https://nodejs.org/dist/v22.23.5/SHASUMS256.txt"
+  },
+  "aiohttp": {
+    "version": "3.14.1"
+  },
+  "boto3": {
+    "version": "1.44.6"
+  },
+  "aws_reference": {
+    "repository": "https://github.com/JiaDe-Wu/sample-hermes-agent-on-aws-with-bedrock",
+    "commit": "c9c5a46654e97d45c8bfb6f6f4ec66852cbe0f2b",
+    "license": "MIT",
+    "license_file": "LICENSES/AWS-REFERENCE-MIT.txt"
+  },
+  "runtime": {
+    "operating_system": "Ubuntu 24.04 LTS",
+    "architecture": "x86_64",
+    "hermes_home": "/home/ubuntu/.hermes",
+    "hermes_venv": "/home/ubuntu/hermes-venv",
+    "jarvis_directory": "/home/ubuntu/jarvis-hermes",
+    "default_aws_region": "us-east-1",
+    "default_bedrock_model": "us.amazon.nova-micro-v1:0",
+    "hermes_api_host": "127.0.0.1",
+    "hermes_api_port": 8642,
+    "jarvis_host": "127.0.0.1",
+    "jarvis_port": 8787
+  }
+}
